@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/purple"
+    tools:context=".LendingActivity"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="669dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book Lending"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtbrach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Branch ID"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/txtBranchIDBook"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtCardNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Card No"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/txtCardNoBook"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtDate1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date Out"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/txtDateout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtDate2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date Due"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/txtDaeDue"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/purple"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtDate3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date Return"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/txtDateReturn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnAddLend"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="22dp"
+                android:backgroundTint="@color/purple"
+                android:text="Add"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:id="@+id/btnDeleteLend"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="28dp"
+                android:backgroundTint="@color/purple"
+                android:text="clear"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnback6"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/purple"
+                android:text="back"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    android:alpha="0.9"
+    tools:context=".ManagebranchActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="52dp"
+        android:text="Manage Books"
+        android:textColor="@color/purple"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtbook"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="148dp"
+        android:text="Book ID"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtBookID"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="148dp"
+        android:backgroundTint="@color/purple"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="216dp"
+        android:text="Book Name"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtBooktitle"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="216dp"
+        android:backgroundTint="@color/purple"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtpub"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="276dp"
+        android:text="Publisher"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtpublishername"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="276dp"
+        android:backgroundTint="@color/purple"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtauthorname"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="336dp"
+        android:text="Author"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtauthorname2"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="336dp"
+        android:backgroundTint="@color/purple"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtbranchname"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="396dp"
+        android:text="Branch"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtaddbranchname"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="396dp"
+        android:backgroundTint="@color/purple"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="211dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="672dp"
+        android:background="@color/purple"
+        android:text="view books "
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnback3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="672dp"
+        android:background="@color/purple"
+        android:text="back"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="672dp"
+        android:background="@color/purple"
+        android:text="clear"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="113dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="568dp"
+        android:background="@color/purple"
+        android:text="Delete"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="97dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="568dp"
+        android:background="@color/purple"
+        android:text="Update"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnbookadd"
+        android:layout_width="214dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="568dp"
+        android:background="@color/purple"
+        android:text="Add"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
